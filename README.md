@@ -1,42 +1,26 @@
-# Research Papers Repository
+# Enhanced Plant Disease Detection Using Drone Imagery and Automated Learning Optimization
 
-Welcome to the repository containing our research work on enhanced detection models utilizing data augmentation and learning rate optimization over the YOLO detection framework for cashew orchards. 
+## 📄 Research Overview  
+This repository contains the research paper **"Enhanced Plant Disease Detection Using Drone Imagery and Automated Learning Optimization."**  
+It explores the use of drone-captured imagery combined with deep learning models to identify plant diseases and stress factors in cashew orchards.
 
-## 📑 Research Papers
+## 📑 Abstract  
+This paper explores the use of drone-captured imagery combined with deep learning models to identify diseases and stress factors in cashew orchards.  
+Our research focuses on three primary stressors: **insect damage, biotic stress from pathogens, and abiotic factors.**  
 
-### 1️⃣ Paper 1: Enhanced Drone-based Plant Disease Detection with Visual Data Augmentation and Optimized Training
-**Abstract:**  
-This paper presents an enhanced detection model utilizing data augmentation and learning rate optimization over the YOLO detection framework, applied to drone-captured imagery of cashew orchards. We focused on three stressors: insect damage, biotic stress from pathogens, and abiotic factors. To address dataset imbalance, advanced data augmentation was implemented alongside a dynamic learning rate adjustment for optimal performance. We evaluated two object detection models, YOLOv9 and YOLOv10. YOLOv9 achieved an mAP50 of 0.591 for insect detection, 0.512 for abiotic stress, and 0.512 for disease detection. YOLOv10 improved abiotic detection with an mAP50 of 0.773 but showed lower performance for insect stress (0.464) and disease (0.476). These results demonstrate the improvements achieved through our enhancements, highlighting the need for diverse datasets and better visualization techniques in precision agriculture.
+To address **dataset imbalance**, we employed **advanced data augmentation techniques** to enhance model training.  
+Additionally, we introduced an **orchestrated training function** that dynamically adjusts the learning rate for optimal performance.  
 
+We evaluated two state-of-the-art object detection models:  
+- **YOLOv9:** Achieved an overall **mAP50 of 0.601**, excelling in **insect detection** (mAP50: **0.777**) but struggled with abiotic stress (mAP50: **0.513**) and disease detection (mAP50: **0.512**).  
+- **YOLOv10:** Achieved an overall **mAP50 of 0.554**, with a strong insect detection score of **0.713** but lower performance in abiotic stress (**0.468**) and disease detection (**0.481**).  
 
+### **Findings:**  
+- Deep learning models showed strong **potential** in detecting **insect-related damage**.  
+- Challenges remain in accurately identifying **abiotic stress and diseases**, particularly in complex environments.  
+- **Future work** will explore **multispectral imaging** and **real-time detection systems** to improve precision agriculture.  
+
+**Keywords:** Crop Disease Detection, YOLOv10, YOLOv9, Object Detection  
 
 ---
 
-### 2️⃣ Paper 2: Automated MLOps-Driven YOLO Framework for Drone-Based Plant Disease Detection
-**Abstract:**  
-This paper presents an enhanced detection model utilizing data augmentation and learning rate optimization over the YOLO detection framework, applied to drone-captured imagery of cashew orchards. We focused on three stressors: insect damage, biotic stress from pathogens, and abiotic factors. To address dataset imbalance, advanced data augmentation was implemented alongside a dynamic learning rate adjustment for optimal performance. We evaluated two object detection models, YOLOv9 and YOLOv10. YOLOv9 achieved an mAP50 of 0.591 for insect detection, 0.512 for abiotic stress, and 0.512 for disease detection. YOLOv10 improved abiotic detection with an mAP50 of 0.773 but showed lower performance for insect stress (0.464) and disease (0.476). These results demonstrate the improvements achieved through our enhancements, highlighting the need for diverse datasets and better visualization techniques in precision agriculture.
-
-
-
----
-
-## 📌 Repository Structure
-```
-Research-Papers-Repo/
-│── Paper1/
-│   ├── paper1.pdf
-│   ├── code/
-│   ├── data/
-│   ├── README.md
-│
-│── Paper2/
-│   ├── paper2.pdf
-│   ├── code/
-│   ├── data/
-│   ├── README.md
-│
-└── README.md
-```
-
-## 📬 Contact
-For any inquiries or collaborations, feel free to reach out!
